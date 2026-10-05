@@ -8,9 +8,9 @@ import { Apple, CheckCircle2, ArrowRight } from 'lucide-react';
 
 const FRESH_ITEMS = [
   {
-    name: 'Fresh Red & Yellow Onions',
+    name: 'Fresh Red ',
     specs: 'Sizes 45mm+, 55mm+, 60mm+, Mesh Bag / Jute Bag Packing',
-    desc: 'Export-grade Nashik red onions with thick skin and high pungency, packed in ventilated mesh bags for ocean transit.',
+    desc: 'Export-grade Nashik onions with thick skin and high pungency, packed in ventilated mesh bags for ocean transit.',
     packaging: '5kg, 10kg, 20kg, 25kg Mesh Bags'
   },
   {

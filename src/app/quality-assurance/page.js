@@ -44,7 +44,7 @@ export default function QualityAssurancePage() {
     <main className="min-h-screen bg-slate-50">
       <PageHeader 
         title="Quality Assurance & Certifications"
-        subtitle="Uncompromising Quality Standards, APEDA Accreditation & ISO 9001:2015 Tested Agro Products."
+        subtitle="Uncompromising Quality Standards for Premium Agricultural Products."
         breadcrumbs={[{ label: 'Quality Assurance' }]}
       />
 

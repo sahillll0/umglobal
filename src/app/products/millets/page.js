@@ -49,7 +49,7 @@ export default function MilletsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-4">
             <span className="text-xs font-bold tracking-widest text-[#C9A227] uppercase bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
-              100% Organic Superfoods
+              Premium Quality Millets
             </span>
             <h2 className="text-3xl font-extrabold text-slate-900">
               Nutrient-Dense Indian Millets & Ancient Grains
@@ -79,7 +79,7 @@ export default function MilletsPage() {
 
           <div className="lg:col-span-6 relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <Image
-              src="/images/hero_shipping.png"
+              src="/images/millets_baskets.jpg"
               alt="Millets Export UM Global Exim"
               fill
               className="object-cover"

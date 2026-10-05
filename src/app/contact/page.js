@@ -111,7 +111,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-slate-900">Direct Export Helpline</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">+91 98765 43210 (WhatsApp / Voice)</p>
+                  <p className="text-xs text-slate-600 mt-0.5">Worldwide Export Solutions from India</p>
                   <span className="text-[10px] text-emerald-700 font-semibold">Instant Response Available</span>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-slate-900">Official Business Email</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">export@umglobalexim.com</p>
+                  <p className="text-xs text-slate-600 mt-0.5">sales@umglobalexim.com</p>
                   <span className="text-[10px] text-slate-400">Response within 12 business hours</span>
                 </div>
               </div>
@@ -231,7 +231,7 @@ export default function ContactPage() {
                       type="text"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+1 555 123 4567"
+                      placeholder="Your Phone Number"
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#0F5132]"
                     />
                   </div>

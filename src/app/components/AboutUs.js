@@ -171,7 +171,7 @@ export default function AboutUs() {
                       <ShieldCheck className="w-6 h-6" />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-slate-900">APEDA & ISO Certified</div>
+                      <div className="text-sm font-bold text-slate-900">Premium Quality Products</div>
                       <div className="text-xs text-slate-500">Global Standard Export Sourcing</div>
                     </div>
                   </div>

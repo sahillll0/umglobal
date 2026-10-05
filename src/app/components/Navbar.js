@@ -23,7 +23,8 @@ import {
   PhoneCall,
   Mail,
   CheckCircle2,
-  Award
+  Award,
+  PackageCheck
 } from 'lucide-react';
 
 // Product Categories for the Mega Dropdown
@@ -33,7 +34,7 @@ const PRODUCT_CATEGORIES = [
     title: 'Spices',
     href: '/products/spices',
     icon: Flame,
-    badge: 'APEDA Certified',
+    
     description: 'Authentic Indian whole & ground spices processed with high curcumin & aroma retention.',
     items: [
       'Turmeric (High Curcumin)',
@@ -50,7 +51,7 @@ const PRODUCT_CATEGORIES = [
     badge: 'Export Standard',
     description: 'Premium quality dehydrated onion, garlic, and vegetable powders with low moisture.',
     items: [
-      'White & Red Onion Flakes',
+      'White Onion Flakes',
       'Garlic Granules & Powder',
       'Dehydrated Tomato Powder',
       'Toasted Onion Powder'
@@ -92,10 +93,24 @@ const PRODUCT_CATEGORIES = [
     badge: 'Cold-Chain Ready',
     description: 'Hand-picked fresh agricultural produce packaged for long sea & air transit.',
     items: [
-      'Fresh Red & Yellow Onions',
+      'Fresh Red ',
       'Fresh Potatoes (Jyoti/LR)',
       'Fresh Table Grapes (Nashik)',
       'Bhagwa Pomegranates'
+    ]
+  },
+  {
+    id: 'packaging',
+    title: 'Packaging Solutions',
+    href: '/products/packaging',
+    icon: PackageCheck,
+    badge: 'Custom Export Packaging',
+    description: 'We offer customized packaging solutions according to buyer requirements.',
+    items: [
+      'Retail & Bulk Packaging',
+      'Private Label Packaging',
+      'Container Load Shipments',
+      'Air & Sea Freight Solutions'
     ]
   }
 ];
@@ -251,28 +266,28 @@ export default function Navbar() {
               <Globe className="w-3.5 h-3.5 text-[#C9A227]" />
               <span>Leading Government Recognized Export House (India)</span>
             </span>
-            <span className="text-emerald-500/60">•</span>
-            <span className="flex items-center space-x-1.5 text-emerald-100">
+            {/* <span className="text-emerald-500/60">•</span> */}
+            {/* <span className="flex items-center space-x-1.5 text-emerald-100">
               <Award className="w-3.5 h-3.5 text-[#C9A227]" />
-              <span>APEDA & ISO 9001:2015 Certified</span>
-            </span>
+              <span>Premium Quality Products</span>
+            </span> */}
           </div>
 
           <div className="flex items-center space-x-6">
             <a 
-              href="tel:+919876543210" 
+              href="mailto:sales@umglobalexim.com" 
               className="flex items-center space-x-1.5 text-emerald-200 hover:text-[#C9A227] transition-colors"
             >
               <PhoneCall className="w-3.5 h-3.5 text-[#C9A227]" />
-              <span>+91 98765 43210</span>
+              <span>+91 7304305372</span>
             </a>
             <span className="text-emerald-500/60">•</span>
             <a 
-              href="mailto:export@umglobalexim.com" 
+              href="mailto:sales@umglobalexim.com" 
               className="flex items-center space-x-1.5 text-emerald-200 hover:text-[#C9A227] transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-[#C9A227]" />
-              <span>export@umglobalexim.com</span>
+              <span>sales@umglobalexim.com</span>
             </a>
           </div>
         </div>
@@ -662,7 +677,7 @@ export default function Navbar() {
                 <div className="pt-2 text-xs text-emerald-200 space-y-1 text-center">
                   <p className="flex items-center justify-center space-x-1">
                     <PhoneCall className="w-3.5 h-3.5 text-[#C9A227]" />
-                    <span>Direct Export Helpline: +91 98765 43210</span>
+                    <span>Worldwide Export Solutions from India</span>
                   </p>
                   <p className="text-[11px] text-emerald-400/80">Government Registered Export House</p>
                 </div>
@@ -895,7 +910,7 @@ export default function Navbar() {
                           type="text"
                           value={quoteFormData.phone}
                           onChange={(e) => setQuoteFormData({ ...quoteFormData, phone: e.target.value })}
-                          placeholder="+1 555 123 4567"
+                          placeholder="Your Phone Number"
                           className="w-full px-3.5 py-2.5 rounded-lg border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#0F5132]"
                         />
                       </div>

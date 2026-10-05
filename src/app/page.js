@@ -49,7 +49,7 @@ const CATEGORIES = [
     id: 'millets',
     name: 'Millets', 
     icon: Sprout, 
-    desc: 'Organic Sorghum, Pearl Millet & Finger Millet', 
+    desc: 'Sorghum, Pearl Millet & Finger Millet', 
     count: '6+ Varieties',
     bgImage: '/images/hero_shipping.png',
     href: '/products#millets'

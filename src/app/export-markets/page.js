@@ -17,12 +17,12 @@ const MARKETS = [
     region: 'Middle East & GCC Countries',
     countries: 'UAE (Dubai/Jebel Ali), Saudi Arabia, Qatar, Oman, Kuwait, Bahrain',
     demand: 'High Curcumin Turmeric, Red Chili, Kabuli Chickpeas, Cardamom, Fresh Red Onions',
-    standards: 'GSO Standards, SASO Certification, Halal Compliance'
+    standards: 'International Quality Standards'
   },
   {
     region: 'European Union & United Kingdom',
     countries: 'Germany, Netherlands (Rotterdam), UK (Felixtowe), Italy, Spain, Poland',
-    demand: 'Dehydrated Garlic Granules, White Onion Flakes, Organic Millets, Whole Spices',
+    demand: 'Dehydrated Garlic, Onion Flakes, Millets, Whole Spices',
     standards: 'EU MRL Compliance, ETO-Free Certification, Aflatoxin Analysis'
   },
   {
@@ -34,8 +34,8 @@ const MARKETS = [
   {
     region: 'North America',
     countries: 'United States (New York/Los Angeles), Canada (Toronto/Vancouver)',
-    demand: 'Ethnic Spice Powders, Sortex Pulses, Dehydrated Vegetables, Organic Millets',
-    standards: 'US FDA Registration, FSVP Compliance, Import Clearance Docs'
+    demand: 'Spices, Pulses, Dehydrated Vegetables, Millets',
+    standards: 'Export Grade Packaging'
   }
 ];
 

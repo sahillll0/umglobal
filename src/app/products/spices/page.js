@@ -59,7 +59,7 @@ export default function SpicesPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-4">
             <span className="text-xs font-bold tracking-widest text-[#C9A227] uppercase bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
-              APEDA & Spice Board Certified
+              Premium Quality Spices
             </span>
             <h2 className="text-3xl font-extrabold text-slate-900">
               Premium Grade Indian Whole & Ground Spices

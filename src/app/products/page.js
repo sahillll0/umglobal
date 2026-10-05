@@ -25,13 +25,13 @@ const CATEGORY_CARDS = [
     image: '/images/cat_spices.png',
     href: '/products/spices',
     icon: Flame,
-    badge: 'APEDA Certified',
+    
     varieties: ['High Curcumin Turmeric', 'Teja & S17 Red Chili', 'Green Cardamom (8mm+)', 'Black Pepper & Cumin']
   },
   {
     id: 'dehydrated-products',
     title: 'Dehydrated Products',
-    subtitle: 'White & Red Onion Flakes, Garlic Powders & Granules',
+    subtitle: 'White Onion Flakes, Garlic Powders & Granules',
     description: 'High-grade dehydrated vegetables processed under hygienic, low-temperature conditions to preserve natural flavor, aroma, and extended shelf-life.',
     image: '/images/cat_dehydrated.png',
     href: '/products/dehydrated-products',
@@ -45,7 +45,7 @@ const CATEGORY_CARDS = [
     href: '/products/pulses',
     subtitle: 'Sortex Cleaned Chickpeas, Red Lentils & Moong',
     description: 'High-protein legumes and pulses machine sorted and cleaned using advanced laser sortex technology to eliminate impurities and damaged seeds.',
-    image: '/images/hero_turmeric.png',
+    image: '/images/pulses_sunburst.jpg',
     icon: Wheat,
     badge: 'Sortex Machine Cleaned',
     varieties: ['Kabuli Chickpeas (40-42 to 75-80)', 'Red Split Lentils (Masoor)', 'Moong Dal (Whole & Split)', 'Desi Chickpeas & Toor Dal']
@@ -56,21 +56,32 @@ const CATEGORY_CARDS = [
     href: '/products/millets',
     subtitle: 'Gluten-Free Sorghum, Pearl Millet & Finger Millet',
     description: 'Nutrient-dense ancient grains and superfoods rich in dietary fiber, minerals, and proteins grown under sustainable rainfed farming.',
-    image: '/images/hero_shipping.png',
+    image: '/images/millets_baskets.jpg',
     icon: Sprout,
-    badge: '100% Organic Superfood',
+    
     varieties: ['Sorghum Grains (Jowar)', 'Pearl Millet (Bajra)', 'Finger Millet (Ragi)', 'Foxtail & Barnyard Millet']
   },
   {
     id: 'fresh-produce',
     title: 'Fresh Produce',
     href: '/products/fresh-produce',
-    subtitle: 'Fresh Red Onions, Potatoes, Grapes & Pomegranates',
+    subtitle: 'Fresh Onions, Potatoes, Grapes & Pomegranates',
     description: 'Farm-fresh fruits and vegetables harvested at peak maturity, graded, cold-stored, and packaged for long-distance maritime transit.',
     image: '/images/hero_produce.png',
     icon: Apple,
     badge: 'Cold Chain Packaged',
-    varieties: ['Fresh Red & Yellow Onions', 'Fresh Potatoes (Jyoti/LR)', 'Fresh Table Grapes (Nashik)', 'Bhagwa Pomegranates']
+    varieties: ['Fresh Onions', 'Fresh Potatoes (Jyoti/LR)', 'Fresh Table Grapes (Nashik)', 'Bhagwa Pomegranates']
+  },
+  {
+    id: 'packaging',
+    title: 'Packaging & Logistics',
+    href: '/products/packaging',
+    subtitle: 'Custom Retail, Bulk & Private Label Packaging',
+    description: 'We offer customized packaging solutions according to buyer requirements, including container load shipments and air/sea freight.',
+    image: '/images/umglobal_packaging.jpg',
+    icon: PackageCheck,
+    badge: 'Custom Export Solutions',
+    varieties: ['Retail Packaging', 'Bulk Packaging', 'Private Labeling', 'Air/Sea Freight Solutions']
   }
 ];
 

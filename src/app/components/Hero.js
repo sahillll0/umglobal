@@ -162,7 +162,7 @@ export default function Hero({ onOpenQuoteModal }) {
             >
               <div className="flex items-center space-x-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0F5132]" />
-                <span>APEDA & ISO Certified</span>
+                <span>Premium Quality Products</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle2 className="w-4 h-4 text-[#0F5132]" />
@@ -187,7 +187,7 @@ export default function Hero({ onOpenQuoteModal }) {
               
               {/* Featured High Quality Agro Image */}
               <Image
-                src="/images/hero_turmeric.png"
+                src="/images/hero_all_products.jpg"
                 alt="UM Global Exim Premium Indian Spices & Agricultural Export"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"

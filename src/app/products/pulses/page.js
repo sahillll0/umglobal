@@ -8,28 +8,52 @@ import { Wheat, CheckCircle2, ArrowRight } from 'lucide-react';
 
 const PULSE_ITEMS = [
   {
-    name: 'Kabuli Chickpeas (Garbanzo Beans)',
+    name: 'Chickpeas (Kabuli)',
     specs: 'Counts 40-42, 42-44, 58-60 to 75-80, Moisture <10%, Sortex 99.9%',
     desc: 'Large creamy white chickpeas processed and machine sorted for international hummus factories and retail canning.',
     packaging: '25kg / 50kg PP Bags or Jumbo Bags'
   },
   {
-    name: 'Red Split Lentils (Masoor Dal)',
-    specs: 'Football / Split 0.5-1% Foreign Matter, Purity 99.5%, Bright Red',
-    desc: 'High-protein red split lentils processed with zero artificial polished colors.',
-    packaging: '25kg / 50kg Brand Printed PP Bags'
+    name: 'Chickpeas (Desi)',
+    specs: 'Brown Desi Chickpeas 7mm+, Machine Cleaned',
+    desc: 'Sustainably grown Indian legumes sorted to guarantee zero weeviled or split grains.',
+    packaging: '25kg Moisture Barrier Bags'
   },
   {
-    name: 'Moong Dal (Whole & Split)',
+    name: 'Green Gram (Moong)',
     specs: 'Green Moong Whole 3.5mm-4mm, Yellow Split Moong Sortex Cleaned',
     desc: 'Nutritious green mung beans and polished/unpolished yellow moong dal for wholesale distribution.',
     packaging: '25kg / 50kg Heavy-Duty Bags'
   },
   {
-    name: 'Desi Chickpeas & Toor Dal',
-    specs: 'Brown Desi Chickpeas 7mm+, Arhar / Toor Dal Machine Cleaned',
-    desc: 'Sustainably grown Indian legumes sorted to guarantee zero weeviled or split grains.',
-    packaging: '25kg Moisture Barrier Bags'
+    name: 'Black Gram (Urad)',
+    specs: 'Whole/Split/Washed, Sortex 99.9%, Moisture <10%',
+    desc: 'Premium quality black gram widely used in various culinary preparations, thoroughly cleaned.',
+    packaging: '25kg / 50kg Brand Printed PP Bags'
+  },
+  {
+    name: 'Pigeon Peas (Toor)',
+    specs: 'Arhar / Toor Dal Machine Cleaned, Purity 99.5%',
+    desc: 'High-quality pigeon peas carefully processed and polished/unpolished as per buyer requirement.',
+    packaging: '25kg / 50kg Heavy-Duty Bags'
+  },
+  {
+    name: 'Red Lentils (Masoor)',
+    specs: 'Football / Split 0.5-1% Foreign Matter, Purity 99.5%, Bright Red',
+    desc: 'High-protein red split lentils processed with zero artificial polished colors.',
+    packaging: '25kg / 50kg Brand Printed PP Bags'
+  },
+  {
+    name: 'White Peas',
+    specs: 'Machine Cleaned, Moisture <12%, Purity 99%',
+    desc: 'Top quality white peas sourced directly from farms and sorted for uniformity.',
+    packaging: '25kg / 50kg PP Bags'
+  },
+  {
+    name: 'Other Premium Pulses',
+    specs: 'Custom Specifications Available',
+    desc: 'We supply a wide range of other premium pulses suitable for retail, wholesale, and food processing.',
+    packaging: 'Custom Packaging Solutions'
   }
 ];
 
@@ -79,7 +103,7 @@ export default function PulsesPage() {
 
           <div className="lg:col-span-6 relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <Image
-              src="/images/hero_turmeric.png"
+              src="/images/pulses_sunburst.jpg"
               alt="Pulses Export UM Global Exim"
               fill
               className="object-cover"

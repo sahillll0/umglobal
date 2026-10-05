@@ -35,11 +35,11 @@ export default function Footer() {
             <div className="flex items-center space-x-3 pt-2">
               <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 text-xs font-semibold">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#C9A227]" />
-                <span>APEDA Registered</span>
+                <span>Premium Quality Products</span>
               </span>
               <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-950/80 border border-amber-500/30 text-amber-300 text-xs font-semibold">
                 <Award className="w-3.5 h-3.5 text-[#C9A227]" />
-                <span>ISO 9001:2015</span>
+                <span>Export Standard Packaging</span>
               </span>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <Link href="/products/pulses" className="hover:text-[#C9A227] transition-colors">Sortex Pulses & Chickpeas</Link>
               </li>
               <li>
-                <Link href="/products/millets" className="hover:text-[#C9A227] transition-colors">Organic Millets & Grains</Link>
+                <Link href="/products/millets" className="hover:text-[#C9A227] transition-colors">Millets & Grains</Link>
               </li>
               <li>
                 <Link href="/products/fresh-produce" className="hover:text-[#C9A227] transition-colors">Fresh Onions & Produce</Link>
@@ -104,7 +104,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2.5">
                 <PhoneCall className="w-4 h-4 text-[#C9A227] shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-white transition-colors">+91 98765 43210</a>
+                <a href="mailto:sales@umglobalexim.com" className="hover:text-white transition-colors">Worldwide Export Solutions from India</a>
               </div>
               <div className="flex items-center space-x-2.5">
                 <Mail className="w-4 h-4 text-[#C9A227] shrink-0" />

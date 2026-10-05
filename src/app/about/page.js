@@ -49,9 +49,9 @@ export default function AboutPage() {
               <div className="p-3.5 rounded-2xl bg-emerald-950 text-[#C9A227] w-fit">
                 <FileCheck className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-bold text-white">APEDA & Spice Board Certified</h3>
+              <h3 className="text-xl font-bold text-white">International Quality Standards</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Registered under the Agricultural and Processed Food Products Export Development Authority (APEDA) and Spices Board India.
+                Our products are carefully selected, processed, and packed to meet international quality standards and customer requirements.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function AboutPage() {
               <div className="p-3.5 rounded-2xl bg-emerald-950 text-[#C9A227] w-fit">
                 <Award className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-bold text-white">ISO 9001:2015 Quality Management</h3>
+              <h3 className="text-xl font-bold text-white">Consistent Product Quality</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
                 Adhering to strict Quality Management Systems (QMS) ensuring complete moisture standards and zero contamination.
               </p>

@@ -12,7 +12,7 @@ import {
 
 const DEHYDRATED_ITEMS = [
   {
-    name: 'Dehydrated White & Red Onion Flakes',
+    name: 'Dehydrated White Onion Flakes',
     specs: 'Flake Size 8-15mm, Low Moisture (<6%), Free from SO2',
     desc: 'Crisp dehydrated onion flakes manufactured from select Indian onions. Excellent rehydration ratio and natural pungency.',
     packaging: '14kg to 20kg Poly-lined Cartons or Paper Bags'
@@ -42,7 +42,7 @@ export default function DehydratedProductsPage() {
     <main className="min-h-screen bg-slate-50">
       <PageHeader 
         title="Dehydrated Products Export Portfolio"
-        subtitle="Export-Grade Dehydrated White & Red Onion Flakes, Garlic Powders, Granules & Tomato Powders."
+        subtitle="Export-Grade Dehydrated White Onion Flakes, Garlic Powders, Granules & Tomato Powders."
         breadcrumbs={[
           { label: 'Products', href: '/products' },
           { label: 'Dehydrated Products' }
@@ -59,7 +59,7 @@ export default function DehydratedProductsPage() {
               High-Grade Dehydrated Vegetables & Powders
             </h2>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              UM Global Exim processes dehydrated onion and garlic in Mahuva and Gujarat hubs under strict HACCP sanitary protocols. Our products feature low moisture, zero micro-contamination, and uniform cut sizes.
+              UM Global Exim processes dehydrated onion and garlic using advanced technology to preserve taste, aroma, color, and nutritional value. Our products feature low moisture, zero micro-contamination, and uniform cut sizes.
             </p>
             <div className="grid grid-cols-2 gap-3 pt-2 text-xs font-semibold text-slate-700">
               <div className="flex items-center space-x-2">
