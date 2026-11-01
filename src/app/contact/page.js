@@ -111,7 +111,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-slate-900">Direct Export Helpline</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">Worldwide Export Solutions from India</p>
+                  <a href="tel:+917304305372" className="text-sm font-bold text-[#0F5132] hover:text-[#C9A227] transition-colors block mt-0.5">
+                    +91 7304305372
+                  </a>
                   <span className="text-[10px] text-emerald-700 font-semibold">Instant Response Available</span>
                 </div>
               </div>

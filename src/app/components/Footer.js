@@ -104,7 +104,9 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2.5">
                 <PhoneCall className="w-4 h-4 text-[#C9A227] shrink-0" />
-                <a href="mailto:sales@umglobalexim.com" className="hover:text-white transition-colors">Worldwide Export Solutions from India</a>
+                <a href="tel:+917304305372" className="text-slate-200 hover:text-[#C9A227] font-semibold transition-colors">
+                  +91 7304305372
+                </a>
               </div>
               <div className="flex items-center space-x-2.5">
                 <Mail className="w-4 h-4 text-[#C9A227] shrink-0" />

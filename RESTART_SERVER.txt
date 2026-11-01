@@ -1,0 +1,19 @@
+🔄 IMPORTANT: RESTART YOUR SERVER NOW!
+
+The .env.local file has been updated with the correct NEXTAUTH_SECRET.
+
+TO FIX THE LOGIN ERROR:
+
+1. Stop your current dev server (Press Ctrl+C in terminal)
+2. Start it again: npm run dev
+3. Go to: http://localhost:3000/admin/login
+4. Login with:
+   - Email: admin@umglobalexim.com
+   - Password: admin123456
+
+The login should work now! ✅
+
+WHY THIS WAS NEEDED:
+- NextAuth requires a secure secret key
+- Environment variables are only loaded when server starts
+- After changing .env.local, you MUST restart the server

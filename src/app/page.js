@@ -25,7 +25,7 @@ const CATEGORIES = [
     desc: 'High Curcumin Turmeric, Teja Chili & Cardamom', 
     count: '12+ Varieties',
     bgImage: '/images/cat_spices.png',
-    href: '/products#spices'
+    href: '/products/spices'
   },
   { 
     id: 'dehydrated',
@@ -34,7 +34,7 @@ const CATEGORIES = [
     desc: 'Dehydrated Onion Flakes & Garlic Powder', 
     count: '8+ Varieties',
     bgImage: '/images/cat_dehydrated.png',
-    href: '/products#dehydrated'
+    href: '/products/dehydrated-products'
   },
   { 
     id: 'pulses',
@@ -42,8 +42,8 @@ const CATEGORIES = [
     icon: Wheat, 
     desc: 'Sortex Cleaned Chickpeas, Lentils & Moong', 
     count: '15+ Varieties',
-    bgImage: '/images/hero_turmeric.png',
-    href: '/products#pulses'
+    bgImage: '/images/pulses_sunburst.jpg',
+    href: '/products/pulses'
   },
   { 
     id: 'millets',
@@ -51,8 +51,8 @@ const CATEGORIES = [
     icon: Sprout, 
     desc: 'Sorghum, Pearl Millet & Finger Millet', 
     count: '6+ Varieties',
-    bgImage: '/images/hero_shipping.png',
-    href: '/products#millets'
+    bgImage: '/images/millets_baskets.jpg',
+    href: '/products/millets'
   },
   { 
     id: 'fresh-produce',
@@ -61,7 +61,7 @@ const CATEGORIES = [
     desc: 'Export Quality Onions, Potatoes & Grapes', 
     count: '10+ Varieties',
     bgImage: '/images/hero_produce.png',
-    href: '/products#fresh-produce'
+    href: '/products/fresh-produce'
   }
 ];
 

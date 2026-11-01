@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="umBlueGrad" x1="50" y1="5" x2="50" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#0B132B" />
+    </linearGradient>
+  </defs>
+  <!-- Left Arch (Curves top left down to base) -->
+  <path d="M 47 10 C 27 10 12 25 12 45 L 12 88 L 32 88 L 32 75 L 24 75 L 24 45 C 24 32 34 22 47 22 Z" fill="url(#umBlueGrad)" />
+  <!-- Right Arch (Curves top right down to base) -->
+  <path d="M 53 10 C 73 10 88 25 88 45 L 88 88 L 76 88 L 76 45 C 76 32 66 22 53 22 Z" fill="url(#umBlueGrad)" />
+  <!-- Inner M Arch -->
+  <path d="M 50 27 C 38 27 30 35 30 47 L 30 88 L 43 88 L 43 56 L 50 66 L 57 56 L 57 88 L 70 88 L 70 47 C 70 35 62 27 50 27 Z M 50 37 C 54 37 57 41 57 45 L 50 55 L 43 45 C 43 41 46 37 50 37 Z" fill="url(#umBlueGrad)" />
+</svg>
